@@ -1,4 +1,4 @@
-# Week 3 -- "Build a Resource" -- CORE EXERCISE (STARTER)
+# Week 3  "Build a Resource" CORE EXERCISE (STARTER)
 # Write each part yourself, in order; if you get stuck, ask.
 
 # TASK 1 : Variable

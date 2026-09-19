@@ -1,7 +1,7 @@
-# Week 3 -- "Build a Resource" -- ADVANCED EXTENSIONS (STARTER)
+# Week 3 "Build a Resource" ADVANCED 
 # The basic data structure is here so you can do
 # the harder part of each extension.
-
+#^ Add this file to a gitignore file before pushing
 list_of_resource = [
     {
         "name": "Ottawa Central Hospital",
@@ -16,7 +16,7 @@ list_of_resource = [
 ]
 
 
-# EXTENSION A : Nested data
+# A. Nested data
 # Add "hours" and "languages" to each dictionary above.
 # Make "languages" a list INSIDE the dictionary (a resource can have 
 # more than one language).
@@ -29,25 +29,25 @@ list_of_resource = [
 
 
 
-# EXTENSION B -- Loop through the whole list
+#  B.  Loop through the whole list
 # Write a function that prints the name of EVERY resource in the list
 # (not just the first one).
 
 
-# Answer this:
-# 3. 
-#
 
 
-# EXTENSION C -- A tiny search function
+#  C. A tiny search function
 # Write a function called "find_resource_by_name" that takes a name and
 # searches list_of_resource for a matching resource, then returns it.
-#
-# This is a small preview of something called "retrieval", you'll see
+
+def find_resource_by_name(name):
+    return None #^change this with your code
+
+
+# This is a small preview of something called "retrieval", we'll see
 # this idea again in a few weeks.
 
 
 # Answer this:
 # 4. What does your function return if no resource matches the name given?
 #    Is that the behavior you want? Why or why not?
-#

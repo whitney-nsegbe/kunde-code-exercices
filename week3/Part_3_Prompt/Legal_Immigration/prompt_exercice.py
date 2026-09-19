@@ -1,4 +1,4 @@
-from week3.Part_4_Prompt.prompt_test import get_answer
+from week3.Part_3_Prompt.prompt_test import get_answer
 from pathlib import Path
 
 user_question = "Where can I get free immigration or legal help in Ottawa?"

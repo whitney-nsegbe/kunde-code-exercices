@@ -35,24 +35,6 @@ food_resources = [
     }
 ]
 prompt = f"""
-Answer the user's question using ONLY the food resource information provided below.
-
-Identify the resources that are relevant to the user's request. For each relevant resource, explain:
-- the organization's name
-- what food assistance it provides
-- where it is located
-- its phone number
-- its hours
-- available languages
-- eligibility requirements
-- cost
-
-Make the answer clear and easy to scan. Prioritize information that would help someone decide which resource they can actually use.
-
-Do not invent, assume, or add information that is not provided in the resources. If an important piece of information is missing, say that it was not provided.
-
-If none of the resources are relevant to the user's question, clearly say that the provided resources do not contain a suitable option.
-
 User question:
 {user_question}
 

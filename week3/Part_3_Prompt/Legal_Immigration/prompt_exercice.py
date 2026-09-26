@@ -35,8 +35,8 @@ legal_resources = [
     }
 ]
 prompt = """
-^ WRITE YOUR PROMPT HERE
-"""
+        
+         """
 
 # ^ If your team decides to write a system prompt do so here, if not leave it empty
 

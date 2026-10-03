@@ -1,3 +1,5 @@
+from pathlib import Path
+
 from config import AWS_KEY_ID, AWS_KEY, AWS_REGION
 from botocore.config import Config
 import boto3
@@ -27,7 +29,7 @@ def get_answer(prompt, system_prompt="You are a helpful AI assistant.", output_f
         system=[{"text": system_prompt}], 
     )
 
-    # Extract the text response
+    # Extract the text response, previewing in terminal
     
     content_list = response["output"]["message"]["content"]
     for content in content_list:

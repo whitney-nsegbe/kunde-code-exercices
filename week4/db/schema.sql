@@ -1,0 +1,22 @@
+-- schema.sql — defines the resources table + pgvector setup
+--
+-- See: docs/kunde_code_build_guide.md — Section 5
+-- See: docs/whitney_personal_roadmap.md — Week 1, Step 3
+--
+-- TODO:
+-- CREATE EXTENSION IF NOT EXISTS vector;
+--
+-- CREATE TABLE resources (
+--   id text primary key,
+--   category text,
+--   group_id text,
+--   name text,
+--   address text,
+--   contact text,
+--   hours text,
+--   eligibility text,
+--   description text
+--   embedding vector(1024),   -- match your Bedrock model's output size
+--   prerequisites text[],
+--   sources jsonb
+-- );

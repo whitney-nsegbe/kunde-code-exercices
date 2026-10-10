@@ -5,14 +5,14 @@ from db.supabase_client import supabase
 from week3.Part_3_Prompt.prompt_test import get_answer
 links = [
 #put all your links here
-
+"https://ottawamission.com/","https://www.sghottawa.com/","http://www.ottawaboothcentre.org/"
 ]
 #1
 #^ This is for previewing the results only, we want to PRINT the result of the CRAWLING FUNCTION seach_link
-def preview_link_results(___):
-    for ____ in ____:
-        __________
-        _________
+def preview_link_results(links):
+    for link in links:
+        result = search_link(link)
+        print(result)
 
 
 
@@ -26,7 +26,7 @@ def crawl_resources(links):
             for i in result["results"]:
                 # ^Why are we doing a loop, what are we looping
                 if i["raw_content"]:
-                    _______._______(
+                    resources_content.append(
                         f"url: {i['url']}\ncontent: {i['raw_content']}"
                     )
         except IndexError:
